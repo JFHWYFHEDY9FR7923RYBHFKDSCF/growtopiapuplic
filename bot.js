@@ -7,7 +7,7 @@ client.on("ready", () => {
   function lol() {
     client.guilds.get('398020677178753024').roles.find("name", "Rainbow").setColor("RANDOM");
   }
-  setInterval(lol, 6000);
+  setInterval(lol, 5000);
 })
 
 
@@ -42,7 +42,7 @@ client.user.setGame(`Growtopia 3rb | ! | by 7MD  `,"https://www.twitch.tv/dggami
 
 client.on('guildMemberAdd', member => {
   
-  const channel = member.guild.channels.find(ch => ch.name === '🌿-chat-🌿');
+  const channel = member.guild.channels.find(ch => ch.name === 'text');
  
   if (!channel) return;
 
