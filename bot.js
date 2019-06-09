@@ -42,7 +42,7 @@ client.user.setGame(`Growtopia 3rb | ! | by 7MD  `,"https://www.twitch.tv/dggami
 
 client.on('guildMemberAdd', member => {
   
-  const channel = member.guild.channels.find(ch => ch.name === 'text');
+  const channel = member.guild.channels.find(ch => ch.name === '📱chat💬');
  
   if (!channel) return;
 
