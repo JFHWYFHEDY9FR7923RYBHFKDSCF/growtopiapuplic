@@ -3,6 +3,14 @@ const client = new Discord.Client();
 var prefix = "!"
 var adminprefix = '!'
    
+client.on("ready", () => {
+  function lol() {
+    client.guilds.get('398020677178753024').roles.find("name", "Rainbow").setColor("RANDOM");
+  }
+  setInterval(lol, 6000);
+})
+
+
 
 client.on('ready', () => {
 client.user.setStatus("dnd");
